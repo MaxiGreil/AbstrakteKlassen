@@ -10,9 +10,8 @@ public class LamborghiniUrus extends Auto {
 	@Override
 	public int fahren() {
 		// TODO Auto-generated method stub
-		System.out.print("Der LamborghiniUrus fährt ");
-		System.out.print(Geschwindigkeit);
-		System.out.println(" km/h");
+		System.out.println("Der LamborghiniUrus fährt "+ Geschwindigkeit + " km/h");
+		
 		return Geschwindigkeit;
 	}
 
